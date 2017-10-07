@@ -15,7 +15,7 @@ Texte de la page
 <h1>{{page.title}}</h1>
 Menu : 
 <ul>
-{% for page in site.pages %}
+{% for page in site.html_pages %}
 <li>
     <a href="{{ page.url }}">{{ page.title }}</a>
 </li>
