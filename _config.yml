@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-
+repository: n-chardon/pw-workshop-pages
 collections:
   pages:
-    output:true
+    output: true
