@@ -13,10 +13,11 @@ Texte de la page
 {{site.description}}
 
 <h1>{{page.title}}</h1>
+Menu : 
 <ul>
 {% for page in site.pages %}
 <li>
-    <a href="{{ page.title }}">{{ page.title }}</a>
+    <a href="{{ page.url }}">{{ page.title }}</a>
 </li>
 {% endfor %}
 </ul>
