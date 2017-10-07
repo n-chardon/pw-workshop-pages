@@ -10,4 +10,6 @@ Texte de la page
 
 {{site.title}}
 
+{{site.description}}
+
 <h1>{{page.title}}</h1>
